@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+.fontKhusus {
+    font-family: 'Dongle', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bgProject {
+    background-color: #F2F2F2;
+}
+
+.judul {
+    color: #2A2727;
+}
+
+.teksKet {
+    color: #57504D;
+}
+
+.gelap {
+    background-color: #181716;
+}
+
+.hampirGelap {
+    background-color: #2A2727;
+}
+
+.abu {
+    background-color: #453F3D;
+}
+
+.btnCv {
+    background-color: #57504D;
 }
